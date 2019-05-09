@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class NowComponent implements OnInit {
+  public now = new Date();
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
