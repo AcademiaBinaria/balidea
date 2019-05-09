@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { environment } from '../environments/environment';
 
-@Component({
+@Component( {
   selector: 'app-root',
   templateUrl: './app.component.html',
   styles: []
-})
+} )
 export class AppComponent {
-  title = 'balidea';
+  title = environment.appName + 'hello world ;-)';
 }
