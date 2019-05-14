@@ -17,6 +17,10 @@ const routes: Routes = [
     loadChildren: './2-spa/about/about.module#AboutModule'
   },
   {
+    path: 'contacts',
+    loadChildren: './3-data/contacts/contacts.module#ContactsModule'
+  },
+  {
     path: 'not-found',
     component: NotFoundComponent
   },
