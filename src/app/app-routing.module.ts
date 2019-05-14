@@ -21,6 +21,10 @@ const routes: Routes = [
     loadChildren: './3-data/contacts/contacts.module#ContactsModule'
   },
   {
+    path: 'car',
+    loadChildren: './4-flow/car/car.module#CarModule'
+  },
+  {
     path: 'not-found',
     component: NotFoundComponent
   },
