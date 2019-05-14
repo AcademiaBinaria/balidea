@@ -1,3 +1,20 @@
-<p>
-  {{ title }}
-</p>
+<header class="sticky">
+  <a routerLink="/"
+     class="logo">
+    <span class="icon-home"></span>
+    <span>{{ title }}</span>
+  </a>
+  <a routerLink="heroes"
+     routerLinkActive="router-link-active"
+     class="button">
+    <span> 2- Heroes</span>
+  </a>
+  <a routerLink="about"
+     routerLinkActive="router-link-active"
+     class="button">
+    <img width="32"
+         style="vertical-align: -0.5em"
+         src="./assets/logo.png" />
+    <span> 2 - About us</span>
+  </a>
+</header>
