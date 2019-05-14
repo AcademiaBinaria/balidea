@@ -1,4 +1,5 @@
 export const environment = {
   appName: 'Balidea Angular Basic PRODUCTION',
-  production: true
+  production: true,
+  unitsCulture: 'metric'
 };

@@ -25,6 +25,10 @@ const routes: Routes = [
     loadChildren: './4-flow/car/car.module#CarModule'
   },
   {
+    path: 'converter',
+    loadChildren: './5-inject/converter/converter.module#ConverterModule'
+  },
+  {
     path: 'not-found',
     component: NotFoundComponent
   },

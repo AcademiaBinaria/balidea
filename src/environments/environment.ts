@@ -4,7 +4,8 @@
 
 export const environment = {
   appName: 'Balidea Angular Basic',
-  production: false
+  production: false,
+  unitsCulture: 'metric'
 };
 
 /*
